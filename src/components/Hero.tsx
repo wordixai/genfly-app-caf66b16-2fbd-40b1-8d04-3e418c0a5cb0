@@ -22,7 +22,7 @@ const Hero = () => {
             Artisanal coffee, fresh pastries, and a cozy atmosphere to make your day better.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-amber-800 hover:bg-amber-900 text-white px-8 py-6 text-lg">
+            <Button className="bg-green-800 hover:bg-green-900 text-white px-8 py-6 text-lg">
               View Our Menu
             </Button>
             <Button variant="outline" className="border-white text-white hover:bg-white/20 px-8 py-6 text-lg">

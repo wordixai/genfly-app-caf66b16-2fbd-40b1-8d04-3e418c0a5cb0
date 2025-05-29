@@ -5,7 +5,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
-            <div className="w-24 h-1 bg-amber-800 mb-6"></div>
+            <div className="w-24 h-1 bg-green-800 mb-6"></div>
             <p className="text-lg text-gray-600 mb-6">
               Founded in 2010, Café Aroma began as a small passion project by two friends who shared a love for exceptional coffee and warm hospitality.
             </p>
@@ -18,15 +18,15 @@ const AboutSection = () => {
             
             <div className="mt-8 grid grid-cols-3 gap-4">
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-amber-800">10+</h3>
+                <h3 className="text-3xl font-bold text-green-800">10+</h3>
                 <p className="text-gray-600">Years of Service</p>
               </div>
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-amber-800">5</h3>
+                <h3 className="text-3xl font-bold text-green-800">5</h3>
                 <p className="text-gray-600">Locations</p>
               </div>
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-amber-800">100%</h3>
+                <h3 className="text-3xl font-bold text-green-800">100%</h3>
                 <p className="text-gray-600">Organic Beans</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ const AboutSection = () => {
                 alt="Cafe barista" 
                 className="rounded-lg shadow-xl w-full h-auto"
               />
-              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-amber-800 rounded-lg hidden md:block"></div>
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-green-800 rounded-lg hidden md:block"></div>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const ContactSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Visit Us</h2>
-          <div className="w-24 h-1 bg-amber-800 mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-green-800 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             We'd love to see you! Stop by for a coffee, a chat, or just to enjoy our cozy atmosphere.
           </p>
@@ -22,7 +22,7 @@ const ContactSection = () => {
             />
             <div className="p-8">
               <div className="flex items-start mb-6">
-                <MapPin className="text-amber-800 mr-4 mt-1 flex-shrink-0" />
+                <MapPin className="text-green-800 mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">Location</h3>
                   <p className="text-gray-600">123 Coffee Street, Downtown<br />New York, NY 10001</p>
@@ -30,7 +30,7 @@ const ContactSection = () => {
               </div>
               
               <div className="flex items-start mb-6">
-                <Clock className="text-amber-800 mr-4 mt-1 flex-shrink-0" />
+                <Clock className="text-green-800 mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">Hours</h3>
                   <p className="text-gray-600">Monday - Friday: 7am - 8pm<br />Saturday - Sunday: 8am - 9pm</p>
@@ -38,7 +38,7 @@ const ContactSection = () => {
               </div>
               
               <div className="flex items-start mb-6">
-                <Phone className="text-amber-800 mr-4 mt-1 flex-shrink-0" />
+                <Phone className="text-green-800 mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">Phone</h3>
                   <p className="text-gray-600">(555) 123-4567</p>
@@ -46,7 +46,7 @@ const ContactSection = () => {
               </div>
               
               <div className="flex items-start">
-                <Mail className="text-amber-800 mr-4 mt-1 flex-shrink-0" />
+                <Mail className="text-green-800 mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">Email</h3>
                   <p className="text-gray-600">hello@cafearoma.com</p>
@@ -63,7 +63,7 @@ const ContactSection = () => {
                 <input 
                   type="text" 
                   id="name" 
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800 focus:border-transparent"
                   placeholder="Your name"
                 />
               </div>
@@ -73,7 +73,7 @@ const ContactSection = () => {
                 <input 
                   type="email" 
                   id="email" 
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800 focus:border-transparent"
                   placeholder="Your email"
                 />
               </div>
@@ -83,12 +83,12 @@ const ContactSection = () => {
                 <textarea 
                   id="message" 
                   rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-800 focus:border-transparent"
                   placeholder="Your message"
                 ></textarea>
               </div>
               
-              <Button className="w-full bg-amber-800 hover:bg-amber-900">Send Message</Button>
+              <Button className="w-full bg-green-800 hover:bg-green-900">Send Message</Button>
             </form>
           </div>
         </div>

@@ -6,18 +6,18 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold text-amber-500 mb-4">Café Aroma</h3>
+            <h3 className="text-2xl font-bold text-green-500 mb-4">Café Aroma</h3>
             <p className="text-gray-400 mb-4">
               Serving exceptional coffee and creating memorable experiences since 2010.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-amber-500">
+              <a href="#" className="text-gray-400 hover:text-green-500">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-amber-500">
+              <a href="#" className="text-gray-400 hover:text-green-500">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-amber-500">
+              <a href="#" className="text-gray-400 hover:text-green-500">
                 <Twitter size={20} />
               </a>
             </div>
@@ -26,10 +26,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-amber-500">Home</a></li>
-              <li><a href="#menu" className="text-gray-400 hover:text-amber-500">Menu</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-amber-500">About</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-amber-500">Contact</a></li>
+              <li><a href="#home" className="text-gray-400 hover:text-green-500">Home</a></li>
+              <li><a href="#menu" className="text-gray-400 hover:text-green-500">Menu</a></li>
+              <li><a href="#about" className="text-gray-400 hover:text-green-500">About</a></li>
+              <li><a href="#contact" className="text-gray-400 hover:text-green-500">Contact</a></li>
             </ul>
           </div>
           
@@ -55,7 +55,7 @@ const Footer = () => {
               />
               <button 
                 type="submit" 
-                className="bg-amber-800 hover:bg-amber-700 px-4 py-2 rounded-r-md"
+                className="bg-green-800 hover:bg-green-700 px-4 py-2 rounded-r-md"
               >
                 Subscribe
               </button>
